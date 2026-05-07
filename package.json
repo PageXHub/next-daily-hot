@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "next dev -p 5173",
-    "build": "next build",
+    "build": "next-on-pages",
     "start": "next start",
     "lint": "eslint",
     "release": "release-it"
@@ -53,6 +53,7 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "release-it": "^19.0.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@cloudflare/next-on-pages": "^2.0.0"
   }
 }
